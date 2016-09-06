@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		004E41ED1D2485A900CA1D98 /* MoodleGiris.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004E41EC1D2485A900CA1D98 /* MoodleGiris.swift */; };
+		004E41EF1D24864C00CA1D98 /* MoodleDetay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004E41EE1D24864C00CA1D98 /* MoodleDetay.swift */; };
+		005081EF1D25437500CB73FB /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 005081EE1D25437500CB73FB /* Podfile */; };
+		005081F11D25446500CB73FB /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 005081F01D25446500CB73FB /* SwiftyJSON.framework */; };
+		005081F31D255C2D00CB73FB /* MoodleDersDetay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005081F21D255C2D00CB73FB /* MoodleDersDetay.swift */; };
+		005081F51D256A6100CB73FB /* Takvim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005081F41D256A6100CB73FB /* Takvim.swift */; };
 		005E799A1D2454A600A8C0E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005E79991D2454A600A8C0E5 /* AppDelegate.swift */; };
 		005E799C1D2454A600A8C0E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005E799B1D2454A600A8C0E5 /* ViewController.swift */; };
 		005E799F1D2454A600A8C0E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 005E799D1D2454A600A8C0E5 /* Main.storyboard */; };
@@ -14,6 +20,29 @@
 		005E79A41D2454A600A8C0E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 005E79A21D2454A600A8C0E5 /* LaunchScreen.storyboard */; };
 		005E79AF1D2454A600A8C0E5 /* ButonluTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005E79AE1D2454A600A8C0E5 /* ButonluTests.swift */; };
 		005E79BA1D2454A600A8C0E5 /* ButonluUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005E79B91D2454A600A8C0E5 /* ButonluUITests.swift */; };
+		005E79C81D2458A000A8C0E5 /* HaberDetay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005E79C71D2458A000A8C0E5 /* HaberDetay.swift */; };
+		006C0DF01D267AC10090F32F /* MenuDetay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006C0DEF1D267AC10090F32F /* MenuDetay.swift */; };
+		6308772E1D7E8D3B005B217D /* Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6308772D1D7E8D3B005B217D /* Orientation.swift */; };
+		630877301D7E9936005B217D /* EtkinAnkara.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6308772F1D7E9936005B217D /* EtkinAnkara.swift */; };
+		630877321D7E9A81005B217D /* YemekListesi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630877311D7E9A81005B217D /* YemekListesi.swift */; };
+		633C4ADC1D772557003F9C27 /* ElKitabi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633C4ADB1D772557003F9C27 /* ElKitabi.swift */; };
+		63A537401D78569300E8C93F /* KlavikaCH-BoldCond.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63A537301D78553C00E8C93F /* KlavikaCH-BoldCond.ttf */; };
+		63A537411D78569300E8C93F /* KlavikaCH-BoldCondIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63A537311D78553C00E8C93F /* KlavikaCH-BoldCondIt.ttf */; };
+		63A537421D78569300E8C93F /* KlavikaCH-BoldCondItTF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63A537321D78553C00E8C93F /* KlavikaCH-BoldCondItTF.ttf */; };
+		63A537431D78569300E8C93F /* KlavikaCH-BoldCondTF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63A537331D78553C00E8C93F /* KlavikaCH-BoldCondTF.ttf */; };
+		63A537441D78569300E8C93F /* KlavikaCH-LightCond.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63A537341D78553C00E8C93F /* KlavikaCH-LightCond.ttf */; };
+		63A537451D78569300E8C93F /* KlavikaCH-LightCondIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63A537351D78553C00E8C93F /* KlavikaCH-LightCondIt.ttf */; };
+		63A537461D78569300E8C93F /* KlavikaCH-LightCondItTF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63A537361D78553C00E8C93F /* KlavikaCH-LightCondItTF.ttf */; };
+		63A537471D78569300E8C93F /* KlavikaCH-LightCondTF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63A537371D78553C00E8C93F /* KlavikaCH-LightCondTF.ttf */; };
+		63A537481D78569300E8C93F /* KlavikaCH-MediumCond.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63A537381D78553C00E8C93F /* KlavikaCH-MediumCond.ttf */; };
+		63A537491D78569300E8C93F /* KlavikaCH-MediumCondIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63A537391D78553C00E8C93F /* KlavikaCH-MediumCondIt.ttf */; };
+		63A5374A1D78569300E8C93F /* KlavikaCH-MediumCondItTF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63A5373A1D78553C00E8C93F /* KlavikaCH-MediumCondItTF.ttf */; };
+		63A5374B1D78569300E8C93F /* KlavikaCH-MediumCondTF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63A5373B1D78553C00E8C93F /* KlavikaCH-MediumCondTF.ttf */; };
+		63A5374C1D78569300E8C93F /* KlavikaCH-RegularCond.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63A5373C1D78553C00E8C93F /* KlavikaCH-RegularCond.ttf */; };
+		63A5374D1D78569300E8C93F /* KlavikaCH-RegularCondIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63A5373D1D78553C00E8C93F /* KlavikaCH-RegularCondIt.ttf */; };
+		63A5374E1D78569300E8C93F /* KlavikaCH-RegularCondItTF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63A5373E1D78553C00E8C93F /* KlavikaCH-RegularCondItTF.ttf */; };
+		63A5374F1D78569300E8C93F /* KlavikaCH-RegularCondTF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63A5373F1D78553C00E8C93F /* KlavikaCH-RegularCondTF.ttf */; };
+		76EF90B195B3C3C1295F0D02 /* Pods_Butonlu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844E15785ED0E7602C2B5CB7 /* Pods_Butonlu.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +63,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		004E41EC1D2485A900CA1D98 /* MoodleGiris.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoodleGiris.swift; sourceTree = "<group>"; };
+		004E41EE1D24864C00CA1D98 /* MoodleDetay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoodleDetay.swift; sourceTree = "<group>"; };
+		005081EE1D25437500CB73FB /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		005081F01D25446500CB73FB /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "Pods/../build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		005081F21D255C2D00CB73FB /* MoodleDersDetay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoodleDersDetay.swift; sourceTree = "<group>"; };
+		005081F41D256A6100CB73FB /* Takvim.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Takvim.swift; sourceTree = "<group>"; };
 		005E79961D2454A600A8C0E5 /* Butonlu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Butonlu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		005E79991D2454A600A8C0E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		005E799B1D2454A600A8C0E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +82,31 @@
 		005E79B51D2454A600A8C0E5 /* ButonluUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButonluUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		005E79B91D2454A600A8C0E5 /* ButonluUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButonluUITests.swift; sourceTree = "<group>"; };
 		005E79BB1D2454A600A8C0E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		005E79C71D2458A000A8C0E5 /* HaberDetay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HaberDetay.swift; sourceTree = "<group>"; };
+		006C0DEF1D267AC10090F32F /* MenuDetay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuDetay.swift; sourceTree = "<group>"; };
+		3A5FB289B5CCFFAE00E94C60 /* Pods-Butonlu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Butonlu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Butonlu/Pods-Butonlu.debug.xcconfig"; sourceTree = "<group>"; };
+		5C6F5495E013A2C22E202EE6 /* Pods-Butonlu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Butonlu.release.xcconfig"; path = "Pods/Target Support Files/Pods-Butonlu/Pods-Butonlu.release.xcconfig"; sourceTree = "<group>"; };
+		6308772D1D7E8D3B005B217D /* Orientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Orientation.swift; sourceTree = "<group>"; };
+		6308772F1D7E9936005B217D /* EtkinAnkara.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EtkinAnkara.swift; sourceTree = "<group>"; };
+		630877311D7E9A81005B217D /* YemekListesi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YemekListesi.swift; sourceTree = "<group>"; };
+		633C4ADB1D772557003F9C27 /* ElKitabi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElKitabi.swift; sourceTree = "<group>"; };
+		63A537301D78553C00E8C93F /* KlavikaCH-BoldCond.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KlavikaCH-BoldCond.ttf"; sourceTree = "<group>"; };
+		63A537311D78553C00E8C93F /* KlavikaCH-BoldCondIt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KlavikaCH-BoldCondIt.ttf"; sourceTree = "<group>"; };
+		63A537321D78553C00E8C93F /* KlavikaCH-BoldCondItTF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KlavikaCH-BoldCondItTF.ttf"; sourceTree = "<group>"; };
+		63A537331D78553C00E8C93F /* KlavikaCH-BoldCondTF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KlavikaCH-BoldCondTF.ttf"; sourceTree = "<group>"; };
+		63A537341D78553C00E8C93F /* KlavikaCH-LightCond.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KlavikaCH-LightCond.ttf"; sourceTree = "<group>"; };
+		63A537351D78553C00E8C93F /* KlavikaCH-LightCondIt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KlavikaCH-LightCondIt.ttf"; sourceTree = "<group>"; };
+		63A537361D78553C00E8C93F /* KlavikaCH-LightCondItTF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KlavikaCH-LightCondItTF.ttf"; sourceTree = "<group>"; };
+		63A537371D78553C00E8C93F /* KlavikaCH-LightCondTF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KlavikaCH-LightCondTF.ttf"; sourceTree = "<group>"; };
+		63A537381D78553C00E8C93F /* KlavikaCH-MediumCond.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KlavikaCH-MediumCond.ttf"; sourceTree = "<group>"; };
+		63A537391D78553C00E8C93F /* KlavikaCH-MediumCondIt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KlavikaCH-MediumCondIt.ttf"; sourceTree = "<group>"; };
+		63A5373A1D78553C00E8C93F /* KlavikaCH-MediumCondItTF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KlavikaCH-MediumCondItTF.ttf"; sourceTree = "<group>"; };
+		63A5373B1D78553C00E8C93F /* KlavikaCH-MediumCondTF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KlavikaCH-MediumCondTF.ttf"; sourceTree = "<group>"; };
+		63A5373C1D78553C00E8C93F /* KlavikaCH-RegularCond.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KlavikaCH-RegularCond.ttf"; sourceTree = "<group>"; };
+		63A5373D1D78553C00E8C93F /* KlavikaCH-RegularCondIt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KlavikaCH-RegularCondIt.ttf"; sourceTree = "<group>"; };
+		63A5373E1D78553C00E8C93F /* KlavikaCH-RegularCondItTF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KlavikaCH-RegularCondItTF.ttf"; sourceTree = "<group>"; };
+		63A5373F1D78553C00E8C93F /* KlavikaCH-RegularCondTF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KlavikaCH-RegularCondTF.ttf"; sourceTree = "<group>"; };
+		844E15785ED0E7602C2B5CB7 /* Pods_Butonlu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Butonlu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +114,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				005081F11D25446500CB73FB /* SwiftyJSON.framework in Frameworks */,
+				76EF90B195B3C3C1295F0D02 /* Pods_Butonlu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +139,13 @@
 		005E798D1D2454A600A8C0E5 = {
 			isa = PBXGroup;
 			children = (
+				005081EE1D25437500CB73FB /* Podfile */,
 				005E79981D2454A600A8C0E5 /* Butonlu */,
 				005E79AD1D2454A600A8C0E5 /* ButonluTests */,
 				005E79B81D2454A600A8C0E5 /* ButonluUITests */,
 				005E79971D2454A600A8C0E5 /* Products */,
+				684F2DF27C5337A6180DD93B /* Pods */,
+				8A7069C3EA77DFC069E90835 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +162,19 @@
 		005E79981D2454A600A8C0E5 /* Butonlu */ = {
 			isa = PBXGroup;
 			children = (
+				63A5372F1D78552400E8C93F /* Resources */,
 				005E79991D2454A600A8C0E5 /* AppDelegate.swift */,
 				005E799B1D2454A600A8C0E5 /* ViewController.swift */,
+				005E79C71D2458A000A8C0E5 /* HaberDetay.swift */,
+				006C0DEF1D267AC10090F32F /* MenuDetay.swift */,
+				004E41EC1D2485A900CA1D98 /* MoodleGiris.swift */,
+				004E41EE1D24864C00CA1D98 /* MoodleDetay.swift */,
+				005081F21D255C2D00CB73FB /* MoodleDersDetay.swift */,
+				005081F41D256A6100CB73FB /* Takvim.swift */,
+				633C4ADB1D772557003F9C27 /* ElKitabi.swift */,
+				6308772D1D7E8D3B005B217D /* Orientation.swift */,
+				6308772F1D7E9936005B217D /* EtkinAnkara.swift */,
+				630877311D7E9A81005B217D /* YemekListesi.swift */,
 				005E799D1D2454A600A8C0E5 /* Main.storyboard */,
 				005E79A01D2454A600A8C0E5 /* Assets.xcassets */,
 				005E79A21D2454A600A8C0E5 /* LaunchScreen.storyboard */,
@@ -125,6 +201,47 @@
 			path = ButonluUITests;
 			sourceTree = "<group>";
 		};
+		63A5372F1D78552400E8C93F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				63A537301D78553C00E8C93F /* KlavikaCH-BoldCond.ttf */,
+				63A537311D78553C00E8C93F /* KlavikaCH-BoldCondIt.ttf */,
+				63A537321D78553C00E8C93F /* KlavikaCH-BoldCondItTF.ttf */,
+				63A537331D78553C00E8C93F /* KlavikaCH-BoldCondTF.ttf */,
+				63A537341D78553C00E8C93F /* KlavikaCH-LightCond.ttf */,
+				63A537351D78553C00E8C93F /* KlavikaCH-LightCondIt.ttf */,
+				63A537361D78553C00E8C93F /* KlavikaCH-LightCondItTF.ttf */,
+				63A537371D78553C00E8C93F /* KlavikaCH-LightCondTF.ttf */,
+				63A537381D78553C00E8C93F /* KlavikaCH-MediumCond.ttf */,
+				63A537391D78553C00E8C93F /* KlavikaCH-MediumCondIt.ttf */,
+				63A5373A1D78553C00E8C93F /* KlavikaCH-MediumCondItTF.ttf */,
+				63A5373B1D78553C00E8C93F /* KlavikaCH-MediumCondTF.ttf */,
+				63A5373C1D78553C00E8C93F /* KlavikaCH-RegularCond.ttf */,
+				63A5373D1D78553C00E8C93F /* KlavikaCH-RegularCondIt.ttf */,
+				63A5373E1D78553C00E8C93F /* KlavikaCH-RegularCondItTF.ttf */,
+				63A5373F1D78553C00E8C93F /* KlavikaCH-RegularCondTF.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		684F2DF27C5337A6180DD93B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A5FB289B5CCFFAE00E94C60 /* Pods-Butonlu.debug.xcconfig */,
+				5C6F5495E013A2C22E202EE6 /* Pods-Butonlu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8A7069C3EA77DFC069E90835 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				005081F01D25446500CB73FB /* SwiftyJSON.framework */,
+				844E15785ED0E7602C2B5CB7 /* Pods_Butonlu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +249,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 005E79BE1D2454A600A8C0E5 /* Build configuration list for PBXNativeTarget "Butonlu" */;
 			buildPhases = (
+				0B3971B3430400BEEFCC6B85 /* 📦 Check Pods Manifest.lock */,
 				005E79921D2454A600A8C0E5 /* Sources */,
 				005E79931D2454A600A8C0E5 /* Frameworks */,
 				005E79941D2454A600A8C0E5 /* Resources */,
+				B7FC90FF47D0B545A7A24503 /* 📦 Embed Pods Frameworks */,
+				1A7F64BE7CC5C846B399F345 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,8 +349,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63A537401D78569300E8C93F /* KlavikaCH-BoldCond.ttf in Resources */,
+				63A537411D78569300E8C93F /* KlavikaCH-BoldCondIt.ttf in Resources */,
+				63A537421D78569300E8C93F /* KlavikaCH-BoldCondItTF.ttf in Resources */,
+				63A537431D78569300E8C93F /* KlavikaCH-BoldCondTF.ttf in Resources */,
+				63A537441D78569300E8C93F /* KlavikaCH-LightCond.ttf in Resources */,
+				63A537451D78569300E8C93F /* KlavikaCH-LightCondIt.ttf in Resources */,
+				63A537461D78569300E8C93F /* KlavikaCH-LightCondItTF.ttf in Resources */,
+				63A537471D78569300E8C93F /* KlavikaCH-LightCondTF.ttf in Resources */,
+				63A537481D78569300E8C93F /* KlavikaCH-MediumCond.ttf in Resources */,
+				63A537491D78569300E8C93F /* KlavikaCH-MediumCondIt.ttf in Resources */,
+				63A5374A1D78569300E8C93F /* KlavikaCH-MediumCondItTF.ttf in Resources */,
+				63A5374B1D78569300E8C93F /* KlavikaCH-MediumCondTF.ttf in Resources */,
+				63A5374C1D78569300E8C93F /* KlavikaCH-RegularCond.ttf in Resources */,
+				63A5374D1D78569300E8C93F /* KlavikaCH-RegularCondIt.ttf in Resources */,
+				63A5374E1D78569300E8C93F /* KlavikaCH-RegularCondItTF.ttf in Resources */,
+				63A5374F1D78569300E8C93F /* KlavikaCH-RegularCondTF.ttf in Resources */,
 				005E79A41D2454A600A8C0E5 /* LaunchScreen.storyboard in Resources */,
 				005E79A11D2454A600A8C0E5 /* Assets.xcassets in Resources */,
+				005081EF1D25437500CB73FB /* Podfile in Resources */,
 				005E799F1D2454A600A8C0E5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,13 +388,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B3971B3430400BEEFCC6B85 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1A7F64BE7CC5C846B399F345 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Butonlu/Pods-Butonlu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7FC90FF47D0B545A7A24503 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Butonlu/Pods-Butonlu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		005E79921D2454A600A8C0E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				005E799C1D2454A600A8C0E5 /* ViewController.swift in Sources */,
+				005081F51D256A6100CB73FB /* Takvim.swift in Sources */,
 				005E799A1D2454A600A8C0E5 /* AppDelegate.swift in Sources */,
+				633C4ADC1D772557003F9C27 /* ElKitabi.swift in Sources */,
+				004E41ED1D2485A900CA1D98 /* MoodleGiris.swift in Sources */,
+				630877301D7E9936005B217D /* EtkinAnkara.swift in Sources */,
+				004E41EF1D24864C00CA1D98 /* MoodleDetay.swift in Sources */,
+				6308772E1D7E8D3B005B217D /* Orientation.swift in Sources */,
+				005E79C81D2458A000A8C0E5 /* HaberDetay.swift in Sources */,
+				630877321D7E9A81005B217D /* YemekListesi.swift in Sources */,
+				006C0DF01D267AC10090F32F /* MenuDetay.swift in Sources */,
+				005081F31D255C2D00CB73FB /* MoodleDersDetay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,8 +590,13 @@
 		};
 		005E79BF1D2454A600A8C0E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A5FB289B5CCFFAE00E94C60 /* Pods-Butonlu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SwiftyJSON",
+				);
 				INFOPLIST_FILE = Butonlu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Emre.Butonlu;
@@ -406,8 +606,13 @@
 		};
 		005E79C01D2454A600A8C0E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C6F5495E013A2C22E202EE6 /* Pods-Butonlu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SwiftyJSON",
+				);
 				INFOPLIST_FILE = Butonlu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Emre.Butonlu;
@@ -482,6 +687,7 @@
 				005E79C01D2454A600A8C0E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		005E79C11D2454A600A8C0E5 /* Build configuration list for PBXNativeTarget "ButonluTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +696,7 @@
 				005E79C31D2454A600A8C0E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		005E79C41D2454A600A8C0E5 /* Build configuration list for PBXNativeTarget "ButonluUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +705,7 @@
 				005E79C61D2454A600A8C0E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

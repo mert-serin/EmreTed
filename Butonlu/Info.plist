@@ -2,6 +2,30 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>KlavikaCH-BoldCond.ttf</string>
+		<string>KlavikaCH-BoldCondIt.ttf</string>
+		<string>KlavikaCH-BoldCondlt.ttf</string>
+		<string>KlavikaCH-BoldCondTF.ttf</string>
+		<string>KlavikaCH-LightCond.ttf</string>
+		<string>KlavikaCH-LightCondlt.ttf</string>
+		<string>KlavikaCH-LightCondltTF.ttf</string>
+		<string>KlavikaCH-LightCondTF.ttf</string>
+		<string>KlavikaCH-MediumCond.ttf</string>
+		<string>KlavikaCH-MediumCondlt.ttf</string>
+		<string>KlavikaCH-MediumCondltTF.ttf</string>
+		<string>KlavikaCH-MediumCondTF.ttf</string>
+		<string>KlavikaCH-RegularCond.ttf</string>
+		<string>KlavikaCH-RegularCondlt.ttf</string>
+		<string>KlavikaCH-RegularCondltTF.ttf</string>
+		<string>KlavikaCH-RegularCondTF.ttf</string>
+	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
