@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, NSXMLParserDelegate  {
+class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, NSXMLParserDelegate{
 
 
     @IBOutlet weak var creator: UILabel!
@@ -195,12 +195,18 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         
         var ssize = haberler.objectAtIndex(indexPath.row).valueForKey("title") as! NSString as String
         
+        var screenSize = UIScreen.mainScreen()
+        
+        let frame = collectionView.frame
+        let width = frame.width
+        let height = frame.height
+        
         //var txtsize = ssize.characters.count
         
         
         //print(txtsize)
         
-        return CGSize(width: 195, height: 195)
+        return CGSize(width: width/2 - 20, height: height/2)
         
         /*
         
@@ -286,5 +292,14 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
             thirdVC.link = secilenHaber
         }
     }
+    
+
+    
+    
+    
+    
+    
+    
+    
 }
 
